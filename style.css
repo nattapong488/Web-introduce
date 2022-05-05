@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: brandon;
+    src: url("brandon-grotesque-black-58a8a3e824392.otf");
+
+}
+
+@font-face {
+    font-family: montser;
+    src: url("MontserratAlternates-MediumItalic.otf");
+}
+
+/* cursor:url(); เปลี่ยน cursor */
+fa-brands fa-facebook {
+    margin-left: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1vmax;
+    height: 100%;
+}
+
+nav {
+    position: relative;
+    /* border: 1px solid blue; */
+    /* background-color: bisque; */
+    background-color: #333;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    width: 100vw;
+
+}
+
+
+aside {
+    position: absolute;
+    background-color: #000000;
+    /* opacity: 0.6; */
+
+    border-radius: 10%;
+    top: 12rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    /* padding: 1rem; */
+    height: 15rem;
+    align-items: flex-start;
+    padding: 0.5rem;
+    /* justify-content: center; */
+    width: 9rem;
+
+
+}
+
+aside a {
+    font-size: 1.2vw;
+    /* border: 1px solid yellow; */
+    color: #fff;
+    text-decoration: none;
+
+    /* padding: 10px; */
+
+}
+
+/* side-link = tag a */
+.side-link {
+    /* border:  1px solid yellow; */
+
+    margin: 1rem;
+    width: 7rem;
+}
+
+aside a:hover {
+    color: yellow;
+    text-decoration: underline;
+    cursor: url("cursor.svg"), auto;
+
+}
+
+aside span {
+    margin-right: 0.4vw;
+}
+
+.nav-bar {
+
+    /* position: relative; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    z-index: 55;
+
+
+}
+
+.nav-bar ul {
+    width: 600px;
+    /* border: 1rem solid gold; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25rem;
+    font-size: 2vw;
+    list-style: none;
+    /* z-index: 9; */
+
+}
+
+.head-home:hover {
+    /* cursor: pointer; */
+    color: yellow;
+    cursor: url("cursor.svg"), auto;
+
+}
+
+.a-tag {
+    
+    /* color: #000000; */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.head-home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5vw;
+    margin-left: 5rem;
+}
+
+#resume:active {
+    cursor: progress;
+
+
+}
+
+
+
+.nav-bar ul li a:hover {
+    cursor: url("cursor.svg");
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease-in-out;
+    /* color: #fff; */
+    /* color: #333; */
+    color: yellow;
+    /* background-color: black; */
+    /* background-color: #fff; */
+    top: 2px;
+    left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    /* border:  1px solid blue; */
+
+}
+
+.bg {
+    width: 100vw;
+    /* position: relative; */
+    background: url("lake-g0072885a0_1920.jpg");
+    /* position: sticky;
+    top: 0px; */
+    background-position: center;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 735px;
+    /* max-width: 100%; */
+    margin: 0 auto;
+    z-index: 0;
+    /* height: 1500px; */
+
+
+}
+
+.bg-info ul {
+    list-style: none;
+}
+
+.bg-info {
+
+    /* margin-left: 30rem; */
+    width: 800px;
+    height: 530px;
+    /* border: 1px solid blue; */
+    border-radius: 1rem 2rem;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(179, 182, 183, 0.4);
+    line-height: 1cm;
+    padding-top: 2.5rem;
+    font-size: clamp(25px, 2.5vw, 35px);
+    font-family: "brandon";
+    /* font-size: calc(60%+0.4vmin); */
+}
+
+.bg-info:hover {
+    position: relative;
+    box-shadow: 0px 0px 10px 10px hsl(60, 100%, 50%);
+    height: 540px;
+    width: 800px;
+    font-size: clamp(25px, 2.5vw, 35px);
+    padding-top: 2rem;
+
+
+}
+
+#ul-skills {
+    display: flex;
+    font-family: montser;
+    font-size: medium;
+    justify-content: space-around;
+    font-weight: 500;
+    /* text-align: left; */
+}
+
+#ul-skills ul {
+    /* border: 1px solid antiquewhite; */
+    margin-right: 50px;
+    list-style: disc;
+    text-align: left;
+
+}
+
+.ex-bs {
+
+    display: flex;
+    /* justify-content: space-around; */
+
+    /* border: 1px solid red; */
+    font-family: montser;
+    font-size: large;
+
+
+}
+
+.ex-bs span {
+    /* border: 1px solid #333; */
+    width: 50%;
+}
+
+#name-skills {
+    margin-top: 1rem;
+    /* position: absolute; */
+    /* border: 1px solid yellow; */
+    padding-right: 35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bg-info span {
+    font-weight: bolder;
+}
+
+#pro-info {
+    position: relative;
+    /* border: 5px solid red; */
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.bg-info p {
+
+    /* border: 1px solid blue; */
+    padding-left: 2.5rem;
+    font-size: clamp(14px, 2.5vw, 18px);
+    font-weight: 500;
+    font-family: montser;
+    text-align: start;
+    /* z-index: 0; */
+}
+
+.pic-profile {
+    /* position: relative; */
+    margin-left: 8rem;
+    /* border: 3px solid blue; */
+    border-radius: 100%;
+
+}
+
+.bg img {
+    /* position: relative; */
+    /* margin-left: 5rem; */
+    border: 7px solid #425061;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    /* margin-left: 8rem; */
+}
+
+
+
+/* Project */
+.sec2 {
+    overflow: hidden;
+    display: block;
+    /* position: relative; */
+    /* margin-top: 10px; */
+    /* margin-top: 10px; */
+    /* background-color: aquamarine; */
+    background-color: rgb(179, 182, 183);
+    width: 100vw;
+    height: 100vh;
+    cursor: url("cursor.svg"), auto;
+    /* border: 3px solid blue; */
+
+}
+
+.container {
+    /* position: relative; */
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 50vw;
+    height: auto;
+    margin-left: 25rem;
+    padding: 10px;
+    text-align: center;
+    /* border: 3px solid red; */
+}
+
+.message {
+    display: block;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: montser;
+    /* border: 2px solid red; */
+    /* width: 200px; */
+}
+
+.sec2 h2 {
+    font-size: 64px;
+    font-family: brandon;
+    font-weight: 400;
+
+}
+
+/* content-project */
+.container-project {
+
+    position: relative;
+    top: 2rem;
+    /* border: 3px solid red; */
+    z-index: 0;
+
+}
+
+.wrap-flex {
+    margin: 5px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.wrap-flex>div {
+    /* position: relative; */
+    /* border: 5px solid red; */
+    border-radius: 50% 50%;
+    text-align: center;
+    width: 300px;
+}
+
+.wrap-flex img {
+    border-radius: 10%;
+    width: 100%;
+}
+
+.wrap-flex img:hover {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+
+
+}
+
+.wrap-flex p,
+h4 {
+
+    display: inline-block;
+    text-align: start;
+    width: 250px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+.wrap-flex h4 {
+    font-family: brandon;
+}
+
+
+
+
+
+/* contact */
+
+.sec3 {
+    display: flex;
+    margin-top: 0px;
+    background-color: burlywood;
+    width: 100vw;
+    height: 50vh;
+    /* border: 2px solid sienna; */
+    /* align-items: center; */
+    overflow: hidden;
+}
+
+.block-contact {
+    margin-top: 2.5rem;
+    display: block;
+    /* border: 1px solid blue; */
+    /* background-color: antiquewhite; */
+    width: 100vmax;
+    height: 100%
+}
+
+#inside-contact {
+    position: relative;
+    display: flex;
+    margin-top: 2.5rem;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background-color: burlywood; */
+    height: 100%;
+
+}
+
+.direct h3,
+.social h3 {
+    font-family: brandon;
+    font-size: xx-large;
+}
+
+.direct ul,
+.social ul {
+    list-style: none;
+
+}
+
+.direct ul a,
+.social ul a {
+    color: #425061;
+    font-family: montser;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.direct ul a:hover,.social ul a:hover {color: slateblue;}
+
+/* .direct span{
+    margin-right:200px; 
+    border: 1px solid blue;
+    font-size: 35px;
+    color: #333;
+} */
+.direct {
+    position: absolute;
+    width: auto;
+    margin-left: 15rem;
+}
+
+.direct ul span,
+.social ul span {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    /* background-color: #fff; */
+    /* border: 1px solid blue; */
+    font-size: xx-large;
+}
+
+#mail {
+    margin-right: 15px;
+    /* background-color: #fff; */
+}
+
+#phone {
+    margin-left: 5px;
+}
+
+.social {
+    position: absolute;
+    margin-left: 53rem;
+    width: auto;
+}
+
+#facebook {
+    margin-right: 25px;
+}
+
+#linkedin {
+    margin-right: 24px;
+}
+
+#medium {
+    margin-right: 13px;
+}
