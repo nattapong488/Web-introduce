@@ -147,7 +147,7 @@ aside span {
 
 
 .nav-bar ul li a:hover {
-    cursor: url("cursor.svg");
+    cursor: url("cursor.svg"),auto;
     position: relative;
     transition: color 0.3s ease, background-color 0.3s ease-in-out;
     /* color: #fff; */
@@ -314,7 +314,7 @@ aside span {
     background-color: rgb(179, 182, 183);
     width: 100vw;
     height: 100vh;
-    cursor: url("cursor.svg"), auto;
+    cursor: url("cursor.svg");
     /* border: 3px solid blue; */
 
 }
@@ -387,7 +387,7 @@ aside span {
     position: relative;
     bottom: 20px;
     width: 100%;
-
+   cursor: url("cursor.svg"),auto;
 
 }
 
@@ -463,7 +463,7 @@ h4 {
     font-weight: bolder;
 }
 
-.direct ul a:hover,.social ul a:hover {color: slateblue;}
+.direct ul a:hover,.social ul a:hover {color: slateblue;cursor:url("cursor.svg"),auto;}
 
 /* .direct span{
     margin-right:200px; 
