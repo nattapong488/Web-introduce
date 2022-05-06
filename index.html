@@ -1,16 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nattapong Soponwattana</title>
 
     <!-- update the version number as needed -->
-    <!-- <script defer src="/__/firebase/9.7.0/firebase-app-compat.js"></script> -->
+    <script defer src="/__/firebase/9.7.0/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
-    <!-- <script defer src="/__/firebase/9.7.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.7.0/firebase-auth-compat.js"></script>
     <script defer src="/__/firebase/9.7.0/firebase-database-compat.js"></script>
     <script defer src="/__/firebase/9.7.0/firebase-firestore-compat.js"></script>
     <script defer src="/__/firebase/9.7.0/firebase-functions-compat.js"></script>
@@ -18,228 +18,291 @@
     <script defer src="/__/firebase/9.7.0/firebase-storage-compat.js"></script>
     <script defer src="/__/firebase/9.7.0/firebase-analytics-compat.js"></script>
     <script defer src="/__/firebase/9.7.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.7.0/firebase-performance-compat.js"></script> -->
+    <script defer src="/__/firebase/9.7.0/firebase-performance-compat.js"></script>
     <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
-    
-    <!-- <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style> -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+        body {
+            background: #ECEFF1;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #message {
+            background: white;
+            max-width: 360px;
+            margin: 100px auto 16px;
+            padding: 32px 24px;
+            border-radius: 3px;
+        }
+
+        #message h2 {
+            color: #ffa100;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0 0 8px;
+        }
+
+        #message h1 {
+            font-size: 22px;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 0.6);
+            margin: 0 0 16px;
+        }
+
+        #message p {
+            line-height: 140%;
+            margin: 16px 0 24px;
+            font-size: 14px;
+        }
+
+        #message a {
+            display: block;
+            text-align: center;
+            background: #039be5;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            border-radius: 4px;
+        }
+
+        #message,
+        #message a {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        #load {
+            color: rgba(0, 0, 0, 0.4);
+            text-align: center;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+
+            body,
+            #message {
+                margin-top: 0;
+                background: white;
+                box-shadow: none;
+            }
+
+            body {
+                border-top: 16px solid #ffa100;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/522fd497c9.js" crossorigin="anonymous"></script>
-  </head>
-  <body> 
-<!--  Hello start my first web page!!!!      -->
+</head>
+
+<body>
+    <!--  Hello start my first web page!!!!      -->
     <nav>
-      <aside>
+        <aside>
 
-          <div class="side-link"><a href="https://www.facebook.com/james.nattapong.1/" target="_blank"><span
-                      class=" fa-brands fa-facebook"></span>&nbspFacebook</a></div>
-          <div class="side-link"><a href="mailto:nattapong_soponwattana@hotmail.com?subject=From Web"
-                  target="_blank"><span class="fa-regular fa-envelope-open"></span>&nbsp;E-mail</a>
-          </div>
-          <div class="side-link"><a href="https://medium.com/@nattapongsoponwattana" target="_blank"><span
-                      class="fa-brands fa-medium"></span>Medium</a> </div>
-          <div class="side-link"><a href="https://www.linkedin.com/in/nattapong-soponwattana-46b520186"
-                  target="_blank"><span class="fa-brands fa-linkedin">&ensp;&nbsp;Linkedin</span></a>
-          </div>
+            <div class="side-link"><a href="https://www.facebook.com/james.nattapong.1/" target="_blank"><span
+                        class=" fa-brands fa-facebook"></span>&nbspFacebook</a></div>
+            <div class="side-link"><a href="mailto:nattapong_soponwattana@hotmail.com?subject=From Web"
+                    target="_blank"><span class="fa-regular fa-envelope-open"></span>&nbsp;E-mail</a>
+            </div>
+            <div class="side-link"><a href="https://medium.com/@nattapongsoponwattana" target="_blank"><span
+                        class="fa-brands fa-medium"></span>Medium</a> </div>
+            <div class="side-link"><a href="https://www.linkedin.com/in/nattapong-soponwattana-46b520186"
+                    target="_blank"><span class="fa-brands fa-linkedin">&ensp;&nbsp;Linkedin</span></a>
+            </div>
+            <div class="side-link"><a href="https://github.com/nattapong488"
+                    target="_blank"><span class="fa-brands fa-github">&ensp;&nbsp;github</span></a>
+            </div>
+        </aside>
 
-      </aside>
+        <div class="nav-bar">
+            <h1><a href="#Home" class="head-home">Home</a></h1>
+            <ul>
+                <li><a href="Resume_nattapong.pdf" target="_blank" id="resume" class="a-tag">Resume</a>
+                </li>
+                <li><a href="#Project" class="a-tag">Project</a></li>
+                <li> <a href="#Contact" class="a-tag">Contact</a></li>
+            </ul>
+        </div>
 
-      <div class="nav-bar">
-          <h1><a href="#Home" class="head-home">Home</a></h1>
-          <ul>
-              <li><a href="Resume_nattapong.pdf"  target="_blank" id="resume" class="a-tag">Resume</a>
-              </li>
-              <li><a href="#Project" class="a-tag">Project</a></li>
-              <li> <a href="#Contact" class="a-tag">Contact</a></li>
-          </ul>
-      </div>
+    </nav>
+    <!-- info -->
+    <div class="bg" id="Home">
+        <div class="pic-profile">
+            <img src="pic-pro2.JPG" alt="picprofile" id="pro1">
+        </div>
 
-  </nav>
-  <!-- info -->
-  <div class="bg" id="Home">
-      <div class="pic-profile">
-          <img src="pic-pro2.JPG" alt="picprofile" id="pro1">
-      </div>
+        <!-- <img src="/lake-g0072885a0_1920.jpg" alt="bg-lake" width="1400" height="790"> -->
+        <div class="bg-info">
+            <h1>Nattapong Soponwattana</h1><br>
+            <div id="pro-info">
+                <p><span>Education</span> : Bachelor of Science Program
+                    in Computer Science <br>
+                    &emsp;&emsp; &emsp; &emsp; &emsp;Silpakorn University&emsp;(gpa 2.31)</p>
+                <p><span>I'm interested in the position</span> : Frontend-developer, Backend-developer</p>
+                <p id="name-skills">Skills</p>
+                <div class="ex-bs">
+                    <span>Experience
+                    </span> <span>Basic</span>
+                </div>
+                <div id="ul-skills">
+                    <ul>
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>C++(arduino)</li>
+                    </ul>
+                    <ul>
+                        <li>Html5</li>
+                        <li>Css3</li>
+                    </ul>
+                </div>
 
-      <!-- <img src="/lake-g0072885a0_1920.jpg" alt="bg-lake" width="1400" height="790"> -->
-      <div class="bg-info">
-          <h1>Nattapong Soponwattana</h1><br>
-          <div id="pro-info">
-              <p><span>Education</span> : Bachelor of Science Program
-                  in Computer Science <br>
-                  &emsp;&emsp; &emsp; &emsp; &emsp;Silpakorn University&emsp;(gpa 2.31)</p>
-              <p><span>I'm interested in the position</span> : Frontend-developer, Backend-developer</p>
-              <p id="name-skills">Skills</p>
-              <div class="ex-bs">
-                  <span>Experience
-                  </span> <span>Basic</span>
-              </div>
-              <div id="ul-skills">
-                  <ul>
-                      <li>C</li>
-                      <li>Java</li>
-                      <li>C++(arduino)</li>
-                  </ul>
-                  <ul>
-                      <li>Html5</li>
-                      <li>Css3</li>
-                  </ul>
-              </div>
-
-          </div>
-
-
-      </div>
-
-  </div>
+            </div>
 
 
+        </div>
 
-  <!--My project -->
-  <div class="sec2" id="Project">
-      <!-- head-project -->
-      <div class="container">
-          <h2>My Project</h2> <br>
-          <div class="message">
-              <p>Ever done project</p>
-          </div>
-      </div>
-
-      <!-- content-project -->
-      <section class="container-project">
-          <div class="wrap-flex">
-              <div class="pro1">
-                  <a href="https://drive.google.com/drive/folders/1Gslj136wEP8NXoIBmay7bDlxI3NljvYB?usp=sharing"
-                      target="_blank">
-                      <img src="recive_Co2.jpg" alt="projec1" width="250" height="200"><br></a>
-
-                  <h4>ระบบควบคุมปริมาณ Co2</h4>
-                  <p>โปรเจคเป็นหนึ่งในระบบที่เกี่ยวข้องกับ plant factory โดยสร้างระบบควบคุมปริมาณก๊าซ Co2
-                      ที่ใช้ในการปลูกพืชระบบปิด ผ่าน Protocol MQTT</p>
-              </div>
-              <div class="pro2">
-                  <a href="https://drive.google.com/drive/folders/1pd_X_CYGq0keTWRYuRqBrrIVgF-LlmtH?usp=sharing"
-                      target="_blank">
-                      <img src="dss-pic2.JPG" alt="dssmovie" width="250" height="200"></a> <br>
-                  <h4>DSS movie ระบบสนับสนุนการตัดสินใจเลือกซื้อภาพยนตร์ </h4>
-                  <p>เป็นระบบที่สร้างขึ้นมาเพื่อเป็นตัวเลือกในการช่วยตัดสินใจ สำหรับผู้ที่ทำธุรกิจทีวีดิจิตอล
-                      เพื่อให้ผู้บริหารเลือกลงทุนซื้อภาพยนตร์เข้ามาฉายในเวลาต่างๆ
-                      ให้ตรงตามความต้องการของผู้บริโภคมากที่สุด </p>
-              </div>
-              <div class="pro3">
-                  <a href="https://drive.google.com/drive/folders/15bzr69PCzJJkeyWlxQTe3qWZG61T0Eqs?usp=sharing"
-                      target="_blank">
-                      <img src="pro3.JPG" alt="pitching" width="250" height="200">
-                  </a>
-
-                  <h4>Pitching การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม</h4>
-                  <p>การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม ส่วนหนึ่งของรายวิชา Innovative Startup Entrepreneurship for
-                      Scientists<br>-ผลงาน ได้รับรางวัลรองชนะเลิศอันดับ 2 (ที่ 3)</p>
-              </div>
-          </div>
-
-      </section>
-
-  </div>
+    </div>
 
 
 
-  <!-- contact -->
-  <footer>
-      <div class="sec3" id="Contact">
-          <div class="block-contact">
-              <div id="inside-contact">
-                  <div class="direct">
-                      <h3>Direct Contact</h3>
-                      <ul>
+    <!--My project -->
+    <div class="sec2" id="Project">
+        <!-- head-project -->
+        <div class="container">
+            <h2>My Project</h2> <br>
+            <div class="message">
+                <p>Ever done project</p>
+            </div>
+        </div>
 
-                          <li> <span id="phone" class="fa-solid fa-mobile-screen-button"></span><a
-                                  href="tel:0846639373" target="_blank">084-663-9373</a></li>
-                          <br>
+        <!-- content-project -->
+        <section class="container-project">
+            <div class="wrap-flex">
+                <div class="pro1">
+                    <a href="https://drive.google.com/drive/folders/1Gslj136wEP8NXoIBmay7bDlxI3NljvYB?usp=sharing"
+                        target="_blank">
+                        <img src="recive_Co2.jpg" alt="projec1" width="250" height="200"><br></a>
 
-                          <li> <span id="mail" class="fa-solid fa-at"></span><a
-                                  href="mailto:nattapong_soponwattana?subject=From Web"
-                                  target="_blank">nattapong_soponwattana@hotmail.com</a>
-                          </li>
-                      </ul>
+                    <h4>ระบบควบคุมปริมาณ Co2</h4>
+                    <p>โปรเจคเป็นหนึ่งในระบบที่เกี่ยวข้องกับ plant factory โดยสร้างระบบควบคุมปริมาณก๊าซ Co2
+                        ที่ใช้ในการปลูกพืชระบบปิด ผ่าน Protocol MQTT</p>
+                </div>
+                <div class="pro2">
+                    <a href="https://drive.google.com/drive/folders/1pd_X_CYGq0keTWRYuRqBrrIVgF-LlmtH?usp=sharing"
+                        target="_blank">
+                        <img src="dss-pic2.JPG" alt="dssmovie" width="250" height="200"></a> <br>
+                    <h4>DSS movie ระบบสนับสนุนการตัดสินใจเลือกซื้อภาพยนตร์ </h4>
+                    <p>เป็นระบบที่สร้างขึ้นมาเพื่อเป็นตัวเลือกในการช่วยตัดสินใจ สำหรับผู้ที่ทำธุรกิจทีวีดิจิตอล
+                        เพื่อให้ผู้บริหารเลือกลงทุนซื้อภาพยนตร์เข้ามาฉายในเวลาต่างๆ
+                        ให้ตรงตามความต้องการของผู้บริโภคมากที่สุด </p>
+                </div>
+                <div class="pro3">
+                    <a href="https://drive.google.com/drive/folders/15bzr69PCzJJkeyWlxQTe3qWZG61T0Eqs?usp=sharing"
+                        target="_blank">
+                        <img src="pro3.JPG" alt="pitching" width="250" height="200">
+                    </a>
 
-                  </div>
-                  <div class="social">
-                      <h3>Social Media</h3>
-                      <ul>
-                          <li><span id="facebook" class="fa-brands fa-facebook-square"></span><a
-                                  href="https://www.facebook.com/james.nattapong.1/" target="_blank">nattapong
-                                  soponwattana </a></li>
-                          <br>
-                          <li><span id="linkedin" class="fa-brands fa-linkedin-in"></span><a
-                                  href="https://www.linkedin.com/in/nattapong-soponwattana-46b520186/"
-                                  target="_blank">Nattapong-soponwattana</a>
-                          </li><br>
-                          <li><span id="medium" class="fa-brands fa-medium"></span><a
-                                  href="https://medium.com/@nattapongsoponwattana"
-                                  target="_blank">@nattapongsoponwattana</a></li>
-                      </ul>
-                  </div>
+                    <h4>Pitching การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม</h4>
+                    <p>การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม ส่วนหนึ่งของรายวิชา Innovative Startup Entrepreneurship for
+                        Scientists<br>-ผลงาน ได้รับรางวัลรองชนะเลิศอันดับ 2 (ที่ 3)</p>
+                </div>
+            </div>
 
-              </div>
+        </section>
 
-          </div>
+    </div>
 
-      </div>
-  </footer>
+
+
+    <!-- contact -->
+    <footer>
+        <div class="sec3" id="Contact">
+            <div class="block-contact">
+                <div id="inside-contact">
+                    <div class="direct">
+                        <h3>Direct Contact</h3>
+                        <ul>
+
+                            <li> <span id="phone" class="fa-solid fa-mobile-screen-button"></span><a
+                                    href="tel:0846639373" target="_blank">084-663-9373</a></li>
+                            <br>
+
+                            <li> <span id="mail" class="fa-solid fa-at"></span><a
+                                    href="mailto:nattapong_soponwattana?subject=From Web"
+                                    target="_blank">nattapong_soponwattana@hotmail.com</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="social">
+                        <h3>Social Media</h3>
+                        <ul>
+                            <li><span id="facebook" class="fa-brands fa-facebook-square"></span><a
+                                    href="https://www.facebook.com/james.nattapong.1/" target="_blank">nattapong
+                                    soponwattana </a></li>
+                            <br>
+                            <li><span id="linkedin" class="fa-brands fa-linkedin-in"></span><a
+                                    href="https://www.linkedin.com/in/nattapong-soponwattana-46b520186/"
+                                    target="_blank">Nattapong-soponwattana</a>
+                            </li><br>
+                            <li><span id="medium" class="fa-brands fa-medium"></span><a
+                                    href="https://medium.com/@nattapongsoponwattana"
+                                    target="_blank">@nattapongsoponwattana</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        document.addEventListener('DOMContentLoaded', function () {
+            const loadEl = document.querySelector('#load');
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+            // // The Firebase SDK is initialized and available here!
+            //
+            // firebase.auth().onAuthStateChanged(user => { });
+            // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+            // firebase.firestore().doc('/foo/bar').get().then(() => { });
+            // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+            // firebase.messaging().requestPermission().then(() => { });
+            // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+            // firebase.analytics(); // call to activate
+            // firebase.analytics().logEvent('tutorial_completed');
+            // firebase.performance(); // call to activate
+            //
+            // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+            try {
+                let app = firebase.app();
+                let features = [
+                    'auth',
+                    'database',
+                    'firestore',
+                    'functions',
+                    'messaging',
+                    'storage',
+                    'analytics',
+                    'remoteConfig',
+                    'performance',
+                ].filter(feature => typeof app[feature] === 'function');
+                loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+            } catch (e) {
+                console.error(e);
+                loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+            }
+        });
     </script>
-  </body>
+</body>
+
 </html>
