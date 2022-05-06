@@ -50,7 +50,7 @@ aside {
 
     border-radius: 10%;
     top: 12rem;
-    left: 2rem;
+    left: 1rem;
     display: flex;
     flex-direction: column;
     border: 1px solid blue;
@@ -109,7 +109,7 @@ aside span {
     /* border: 1rem solid gold; */
     display: flex;
     justify-content: space-around;
-    margin-left: 45rem;
+    margin-left: 25rem;
     font-size: 2vw;
     list-style: none;
     /* z-index: 9; */
@@ -174,7 +174,7 @@ aside span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 970px;
+    height: 800px;
     /* max-width: 100%; */
     margin: 0 auto;
     z-index: 0;
@@ -326,7 +326,7 @@ aside span {
     margin-bottom: 2rem;
     width: 50vw;
     height: auto;
-    margin-left: 30rem;
+    margin-left: 25rem;
     padding: 10px;
     text-align: center;
     /* border: 3px solid red; */
@@ -474,7 +474,7 @@ h4 {
 .direct {
     position: absolute;
     width: auto;
-    margin-left: 30rem;
+    margin-left: 18rem;
 }
 
 .direct ul span,
@@ -498,7 +498,7 @@ h4 {
 
 .social {
     position: absolute;
-    margin-left: 70rem;
+    margin-left: 55rem;
     width: auto;
 }
 
